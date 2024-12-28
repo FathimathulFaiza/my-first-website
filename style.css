@@ -1,0 +1,507 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+}
+#header{
+    height: 16%;
+    width: 100%;
+    background-color:white;
+    display: flex;
+    align-items: center;
+    
+    
+}
+#logo{
+    height: 90%;
+    width: 10%;
+    object-fit: cover;
+    display: flex;
+    margin: 10px;
+}
+.text{
+    color: rgb(5, 5, 48);
+        font-size : normal;
+        margin:10px ;
+        display: flex;
+        padding: 40px;
+        font-family:  Montserrat-SemiBold, Arial, sans-serif;
+    }
+    #signUp{
+        background-color: bisque;
+       
+        margin: 20px;
+        border-width: 50px;
+        padding: 23px;
+        padding-left: 20px;
+        border-radius: 25px;
+    }
+    #content{
+        width:100%;
+        height: 100%;
+       display: flex;
+
+    }
+    #section1{
+        height: 84%;
+        width: 50%;
+        background-color:rgb(101, 16, 101);
+       color: white;
+    }
+    #section1 h2{
+        font-family: jalliestha,cursive;
+       margin: 50px;
+       padding: 50px;
+       font-size: 45px;
+        
+        justify-content: center;
+        
+    }
+    #section1 h1{
+        font-family: montserrat-bold,arial sans-sarif;
+        font-weight: bolder;
+        font-size: 50px;
+        margin:25px;
+        text-align: center;
+        justify-content: center;
+        padding-right: 45px;
+        
+    }
+    #section1 p{
+        font-size: 28px;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+        text-align:center;
+        justify-content: right;
+        display: flex;
+        
+    }
+    #button{  
+    width: 160px;
+   height: 45px;
+    margin-left: 155px;
+    background-color: bisque;
+   border: none;
+    font-size: 12px;
+    border-radius: 67px;
+   color: black; 
+   margin-top: 16px;  
+
+    }
+    #section2{
+        height: 70%;
+        width: 50%;
+        
+    }
+    #section2 img{
+        height: 120%;
+        width: 100%;
+        
+    }
+    #page2{
+        height: 100%;
+        width: 100%;
+        background-color:white;
+        
+    }
+    #lux-logo{
+   height: 13px;
+        width: 80px;
+        margin: 41px;
+        margin-top: 11px;  
+        background-color:#fff;   
+    }
+    
+    #flower{
+        margin-left: 1070px;
+        margin-top: -10px;
+        height: 15px;
+        offset-rotate: 64px;
+        rotate: 174deg;
+        width: 13%;
+        background-color:white;
+    }
+    #heading h1{
+        margin-left: 87px;
+    font-size: 49px;
+    padding-top: 86px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 113px;
+    font-size: 49px;
+    padding-top: 120px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:white;
+    width: 65%;
+    
+    padding-bottom: -10px;
+    margin-top: 107p;
+    }
+    #flower img{
+        margin-left: -195px;
+    }
+    #three-boxes { 
+      width: 100%;
+      height: 80%;
+      display: flex;  
+      justify-content: center;
+      margin: 11px;
+      gap: 13px;
+      border-color:goldenrod;
+      border-width: 5px solid;
+      outline: bisque;
+      border: wheat;
+    }
+    #box1{
+        background-color:white;
+        width: 30%;
+        height :60%;
+        padding-right: 18px;
+        border:burlywood ;
+        border-width: 3px solid;
+        border-style: double;
+        
+   
+}
+#box1 img{
+    
+        height: 208px;
+       
+       
+        padding: 5px;
+        padding-left: 107px;
+        padding-right: -23px;
+        padding-top: 28px;
+}
+#soapBars {
+    background-color:burlywood;
+    position: relative;
+    top: 100px;
+    height: 20%;
+    width: 104%;
+    padding-top: 33px;
+    border-style: solid;
+    border-color: burlywood;
+    border-width: 5px;
+}
+#box1 label{
+
+    
+    font-weight: bolder;
+    padding-top: 10px;
+    width: auto;
+    font-size: larger;
+    word-spacing: 3px;
+    margin-left: 5px;
+
+    
+}
+       
+    #box2{
+        background-color: white;
+        width: 30%;
+        height: 60%;
+        border: burlywood;
+        border-style: double;
+
+    }
+    #box2 img{
+        height: 200px;
+    padding-left: 32px;
+        height: 60%;
+    padding-top: 28px;
+    padding-left: 94px;
+    height: 247px;
+}
+#bodywashes{
+    background-color:rgb(173, 136, 173);
+    position: relative;
+    top: 61px;
+    height: 20%;
+    width: 100%;
+    padding-top: 50px;
+    border-style: 3px;
+    padding-top: 33px;
+    
+
+
+}
+#box2 label{
+    border-style: 3px;
+   text-align: center;
+    padding-top: 30px;
+    width: auto;
+    font-size: larger;
+    word-spacing: 3px;
+padding-bottom: 33px;
+justify-content: left;
+font-weight: bolder;
+margin-left: 5px;
+
+}
+    
+    #box3{
+        background-color: white;
+        width: 30%;
+        height: 60%;
+        border-style: double;
+        border-color: burlywood;
+
+    }
+    #box3 img{
+        height: 239px;
+    padding-left: 95px;
+    padding-top: 28px;
+}
+#bath{
+    background-color:rgb(155, 187, 155);
+    position: relative;
+    top: 69px;
+    height: 20%;
+    width: 100%;
+    padding-top: 30px;
+   
+}
+#box3 label{
+    margin-left: 5px;
+   text-align: center;
+    padding-top: 13px;
+    width: auto;
+    font-size: 23px;
+    font-weight: bolder;
+    word-spacing: 3px;
+padding-bottom: 13px;
+justify-content:center;
+
+}
+#view-button{
+    background-color: burlywood;
+    border-radius:23px ;
+   margin-right: 250px;
+   position: absolute;
+   width: 300px;
+   height: 45px;
+   border: none;
+   margin-top: 450px;
+   margin-left: 300px;
+   
+
+}
+#view label{
+    width: 300px;
+    padding-right: 67px;
+    margin-right: 50px;
+    background-color: bisque;
+    position: absolute;
+    font-size: 18px;
+    border-radius: 67px;
+   color: black; 
+   margin-top: 450px; 
+   justify-content: center; 
+   text-align: center;
+   align-items: center;
+   padding: 35px;
+
+   
+   
+   padding-bottom: 25px;
+
+}
+#page3{
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgb(8, 8, 55),rgb(80, 13, 13))
+}
+#page3 h1{
+    margin-left: 504px;
+    font-size: 52px;
+    color: #debdc3;
+}
+
+#page3 img{
+    height: 600px;
+   
+    margin-left: 228px;
+    width: 70%;
+    margin-top: 45px;
+}
+#page4{
+height: 100%;
+width: 100%;
+
+background-color: hwb(0 80% 2%);
+
+
+
+}
+
+#top{
+    justify-content: center;
+    text-align: center;
+    width: 300px;
+    margin-left: 550px;
+        
+        font-size: 51px;
+        font-style: normal;
+     margin-bottom: 70px;
+        
+        color: #0c0c36;
+        
+        height: 34px;
+            
+            
+}
+#lastSoap{
+    height: 400px;
+    width: 530px;
+    margin-right: 715px;
+    
+}
+#soap{
+    height: 550px;
+}
+       
+ 
+#paragraph{
+  
+    width: 50%;
+    margin-left: 600px;
+    height: 600px;
+margin-top: -700px;   
+    background-color: #f9e4e4;
+    
+    
+}
+#text1{
+    font-size: 45px;
+    padding-left: 72px;
+    color: rgb(10, 10, 36);
+}
+
+#para1{
+    font-size: 21px;
+    padding-top: 34px;
+    padding-left: 49px;
+    line-height: 2;
+    background-color: #f9e4e4;
+    margin-top: 32px;
+
+}
+#icons{
+    display: flex;
+    gap: 30px;
+}
+#pampering{
+    margin-top: 45px;
+    margin-left: 34px;
+}
+#oil{
+    margin-top: 45px;
+    margin-left:14px;
+}
+#fragrance{
+    margin-top: 45px;
+
+}
+
+
+#view{
+
+width: 234px;
+    margin-top: 34px;
+    padding-left: 5px;
+    margin-left:110px ;
+    border-radius: 28px;
+    text-align: center;
+    font-size: 21px;
+    background-color: burlywood;
+    border-style: double;
+    border-color: burlywood;
+    justify-content: center;
+}   
+#footer{
+    height: 450px;
+    width: 100%;
+    background-color: #f9e4e4;
+    margin-top: 10px;
+    display: flex;
+}
+#Legal{
+    background-color: #f9e4e4;
+    width: 15%;
+    height: 45%;
+    margin-left: 130px;
+    margin-top: 34px;
+    list-style-type:none;
+
+   letter-spacing: 1.5px;
+   
+}
+     
+
+#small-Lux{
+    height:109px;
+    width:109px;
+    background-color:#f9e4e4;
+    margin-left: 34px;
+}
+#Lux{
+    width: 130px;
+    height: 130px;
+    padding-right: 5px;
+}
+#Help{
+    background-color:#f9e4e4;
+    width: 15%;
+    height: 45%;
+    margin-top: 34px;
+   
+
+}
+#Location{
+    background-color:#f9e4e4;
+    height: 35%;
+    width: 20%;
+    margin-top:34px ;
+
+}
+#follow{
+    height: 45%;
+    width: 17%;
+    margin-top: 30px;
+    margin-left: 280px;
+}
+
+#uniliver{
+    height: 16px;
+    width: 22px;
+    margin-left: -999px;
+    margin-top: 250px;
+    
+
+}
+#para{
+    margin-top: 332px;
+    margin-left: -843px;
+}
+
+    
+
+
+
+
+
+
+    
+    
+    
+
+
+    
+    
